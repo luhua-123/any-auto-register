@@ -265,6 +265,7 @@ export default function RegisterTaskPage() {
                 { value: 'cursor', label: 'Cursor' },
                 { value: 'kiro', label: 'Kiro' },
                 { value: 'grok', label: 'Grok' },
+                { value: 'qwen', label: 'Qwen' },
                 { value: 'tavily', label: 'Tavily' },
                 { value: 'openblocklabs', label: 'OpenBlockLabs' },
               ]}

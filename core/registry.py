@@ -5,7 +5,7 @@ from typing import Dict, Type
 from .base_platform import BasePlatform
 
 _registry: Dict[str, Type[BasePlatform]] = {}
-_DISABLED_PLATFORMS = {"trae", "qwen"}
+_DISABLED_PLATFORMS = {"trae"}
 
 
 def is_platform_enabled(name: str) -> bool:
